@@ -1,0 +1,145 @@
+body {
+background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+}
+.navbar {
+  padding-bottom: 50px;
+  margin-left: 50px;
+}
+
+.links {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 100px;
+}
+.links:hover{
+  color: red;
+}
+.search {
+  text-align: center;
+  width: 145px;
+  height: 30px;
+  border-radius: 6px;
+  margin-left: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 2px solid rgba(253, 41, 41, 0.906);
+}
+.search:hover{
+  color: red;
+}
+
+.vertcalnavbar {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  width: 100px;
+  height: 360px;
+  border-radius: 10px;
+  
+}
+
+.icons{
+   width: 30px;
+   padding-top: -30px;
+   padding-left: -20px;
+}
+
+.verticals {
+  display: flex;
+  padding-top: 60px;
+  text-decoration: none;
+  padding-left: 25px;
+  color: white;
+}
+.verticals:hover{
+   color: white;
+margin-bottom: 12px;
+   width: 75px;
+   height: 1px;
+   border-radius: 10px;
+    background: rgba(164, 13, 13, 0.83);
+  box-shadow: 0 4px 30px rgba(200, 21, 21, 0.721);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.center:hover{
+   padding-bottom: 40px;
+}
+.moviecontainer{
+padding-left: 200px;
+}
+.movies{
+   width: 200px;
+   display: inline;
+   border-radius: 15px;
+   padding-left: 10px;
+   margin-top: -800px;
+   
+}
+.movies2{
+   width: 200px;
+   display: inline;
+   border-radius: 15px;
+   padding-left: 10px;
+   padding-top: 15px;
+}
+.new{
+   padding-left: 0px;
+}
+.newmovies{
+   width: 200px;
+   display: inline;
+   border-radius: 15px;
+   padding-left: 60px;
+   padding-top: 80px;
+}
+h3{
+   color: white;
+}
+.seriescontainer{
+   padding-top: 50px;
+   padding-left: 210px;
+}
+.tvshows{
+width: 110px;
+padding-left: 30px;
+border-radius: 15px;
+display: inline;
+}
+.series2{
+   margin-top: -449px;
+   padding-left: 590px;
+
+}
+.seriescontainer2{
+   margin-top: -50px;
+   padding-left: 110px;
+   padding-bottom: 100px;
+
+}
+.tvshows{
+width: 110px;
+padding-left: 30px;
+border-radius: 15px;
+display: inline;
+}
+.seemore{
+   color: white;
+   padding-left: 434px;
+}
+.seealot{
+   color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.seealot:hover{
+   color: black;
+}
